@@ -1,13 +1,18 @@
-<? require_once("config/util.php"); ?>
+<? 
+require_once("config/util.php"); 
+$url = "http://192.168.100.13/frequencia_espirita/";
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <title>Sistema de Gerenciamento de frequencia</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+  
+  <!-- Bootstrap -->
+  <link href="<? echo $url ?>bootstrap-3.3.2-dist/css/bootstrap.min.css" rel="stylesheet" media="screen">
+  <script src="<? echo $url ?>js/bootstrap.min.js"></script>
+  <script src="<? echo $url ?>js/jquery.min.js"></script>
 </head>
 <body>
 
